@@ -10,6 +10,8 @@ namespace WCF_Labb2ConsoleClient
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }
