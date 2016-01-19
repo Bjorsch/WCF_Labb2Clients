@@ -13,5 +13,11 @@ namespace WCF_Labb2WebClient
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            BMIClient host = new BMIClient();
+            Label1.Text = host.BMI(Convert.ToDecimal(TextBox1.Text), Convert.ToDecimal(TextBox2.Text)).ToString();
+        }
     }
 }

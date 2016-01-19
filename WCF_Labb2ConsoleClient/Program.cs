@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 
@@ -19,6 +20,7 @@ namespace WCF_Labb2ConsoleClient
             Console.WriteLine("Skriv in din vikt: ");
             var weight = Convert.ToDecimal(Console.ReadLine());
             Console.WriteLine(host.BMI(height, weight));
+            Thread.Sleep(5000);
         }
     }
 }
