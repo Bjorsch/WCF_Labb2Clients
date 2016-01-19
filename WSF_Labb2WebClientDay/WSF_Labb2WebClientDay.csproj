@@ -76,10 +76,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Days.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Days.aspx.cs">
+      <DependentUpon>Days.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Days.aspx.designer.cs">
+      <DependentUpon>Days.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GeneratedProxy2.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
