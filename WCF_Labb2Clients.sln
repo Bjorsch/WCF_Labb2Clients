@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Labb2ConsoleClient", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Labb2WebClient", "WCF_Labb2WebClient\WCF_Labb2WebClient.csproj", "{FC8A5230-F10F-4FBA-9104-702F1DFC6866}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Labb2ConsoleClientDay", "WCF_Labb2ConsoleClientDay\WCF_Labb2ConsoleClientDay.csproj", "{2259AC3D-A7D5-4E1E-8358-E0F991B00535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSF_Labb2WebClientDay", "WSF_Labb2WebClientDay\WSF_Labb2WebClientDay.csproj", "{4B3AB8BA-0E32-41DF-A702-6F7D057AD561}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{FC8A5230-F10F-4FBA-9104-702F1DFC6866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC8A5230-F10F-4FBA-9104-702F1DFC6866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC8A5230-F10F-4FBA-9104-702F1DFC6866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2259AC3D-A7D5-4E1E-8358-E0F991B00535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2259AC3D-A7D5-4E1E-8358-E0F991B00535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2259AC3D-A7D5-4E1E-8358-E0F991B00535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2259AC3D-A7D5-4E1E-8358-E0F991B00535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3AB8BA-0E32-41DF-A702-6F7D057AD561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3AB8BA-0E32-41DF-A702-6F7D057AD561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3AB8BA-0E32-41DF-A702-6F7D057AD561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3AB8BA-0E32-41DF-A702-6F7D057AD561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

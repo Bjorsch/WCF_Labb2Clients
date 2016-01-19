@@ -14,7 +14,6 @@ namespace WCF_Labb2ConsoleClient
         static void Main(string[] args)
         {
             BMIClient host = new BMIClient();
-            Console.WriteLine();
             Console.WriteLine("Skriv in din längd: ");
             var height = Convert.ToDecimal(Console.ReadLine());
             Console.WriteLine("Skriv in din vikt: ");
