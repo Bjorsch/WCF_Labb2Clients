@@ -20,6 +20,12 @@ public interface IHobby
     
     [System.ServiceModel.OperationContractAttribute(Action="WSF_Service_Hobby/IHobby/MovieFromYear", ReplyAction="WSF_Service_Hobby/IHobby/MovieFromYearResponse")]
     System.Threading.Tasks.Task<string> MovieFromYearAsync(string textBox);
+    
+    [System.ServiceModel.OperationContractAttribute(Action="WSF_Service_Hobby/IHobby/ButtonFromYear", ReplyAction="WSF_Service_Hobby/IHobby/ButtonFromYearResponse")]
+    string ButtonFromYear(string value);
+    
+    [System.ServiceModel.OperationContractAttribute(Action="WSF_Service_Hobby/IHobby/ButtonFromYear", ReplyAction="WSF_Service_Hobby/IHobby/ButtonFromYearResponse")]
+    System.Threading.Tasks.Task<string> ButtonFromYearAsync(string value);
 }
 
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -64,5 +70,15 @@ public partial class HobbyClient : System.ServiceModel.ClientBase<IHobby>, IHobb
     public System.Threading.Tasks.Task<string> MovieFromYearAsync(string textBox)
     {
         return base.Channel.MovieFromYearAsync(textBox);
+    }
+    
+    public string ButtonFromYear(string value)
+    {
+        return base.Channel.ButtonFromYear(value);
+    }
+    
+    public System.Threading.Tasks.Task<string> ButtonFromYearAsync(string value)
+    {
+        return base.Channel.ButtonFromYearAsync(value);
     }
 }

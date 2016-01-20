@@ -76,10 +76,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AllMovieYear.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllMovieYear.aspx.cs">
+      <DependentUpon>AllMovieYear.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllMovieYear.aspx.designer.cs">
+      <DependentUpon>AllMovieYear.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GeneratedProxy3.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
