@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Labb2ConsoleClient1000"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCL_Labb2WebClient1000", "WCL_Labb2WebClient1000\WCL_Labb2WebClient1000.csproj", "{939BE131-5436-422A-AC83-8CE75C7081FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Labb2ConsoleClientHobby", "WCF_Labb2ConsoleClientHobby\WCF_Labb2ConsoleClientHobby.csproj", "{06B9E54E-5198-4800-ACE6-5718AAD22CF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Labb2WebClientHobby", "WCF_Labb2WebClientHobby\WCF_Labb2WebClientHobby.csproj", "{0F43EC25-E7DD-495E-BB4C-F0622658610E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{939BE131-5436-422A-AC83-8CE75C7081FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939BE131-5436-422A-AC83-8CE75C7081FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939BE131-5436-422A-AC83-8CE75C7081FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B9E54E-5198-4800-ACE6-5718AAD22CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B9E54E-5198-4800-ACE6-5718AAD22CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B9E54E-5198-4800-ACE6-5718AAD22CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B9E54E-5198-4800-ACE6-5718AAD22CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F43EC25-E7DD-495E-BB4C-F0622658610E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F43EC25-E7DD-495E-BB4C-F0622658610E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F43EC25-E7DD-495E-BB4C-F0622658610E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F43EC25-E7DD-495E-BB4C-F0622658610E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
